@@ -1,10 +1,13 @@
+import { render } from "enzyme";
 import React, { Component, useState } from "react";
 import "../styles/App.css";
-import Heading from "./Heading";
-import InputQuery from "./InputQuery";
-import SubHeading from "./SubHeading";
-import SubmitButton from "./SubmitButton";
+import Heading from "./components/Heading";
+import InputQuery from "./components/InputQuery";
+import SubHeading from "./components/SubHeading";
+import SubmitButton from "./components/SubmitButton";
 const App = () => {
+  // const [state , setState] = useState();
+  render();
   return (
     <div id="main">
       <Heading />
