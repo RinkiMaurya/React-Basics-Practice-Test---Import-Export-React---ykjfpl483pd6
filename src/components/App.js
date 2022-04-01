@@ -1,4 +1,4 @@
-import { render } from "enzyme";
+//import { render } from "enzyme";
 import React, { Component, useState } from "react";
 import "../styles/App.css";
 import Heading from "./components/Heading";
@@ -7,7 +7,7 @@ import SubHeading from "./components/SubHeading";
 import SubmitButton from "./components/SubmitButton";
 const App = () => {
   // const [state , setState] = useState();
-  render();
+
   return (
     <div id="main">
       <Heading />

@@ -1,8 +1,8 @@
-import { render } from "enzyme";
+//import { render } from "enzyme";
 import React from "react";
 
 function Heading() {
-  render();
+  //render();
   return <h1>Welcome to our Site.</h1>;
 }
 export default Heading;

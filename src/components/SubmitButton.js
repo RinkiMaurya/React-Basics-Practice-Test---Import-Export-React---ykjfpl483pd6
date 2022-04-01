@@ -1,8 +1,8 @@
-import { render } from "enzyme";
+//import { render } from "enzyme";
 import React from "react";
 
 function SubmitButton() {
-  render();
+  //render();
   return <button>Ask</button>;
 }
 export default SubmitButton;
